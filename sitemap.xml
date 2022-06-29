@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/histDensity/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/BarViolinDataSet/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/submarineCables/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/FilledCurves/delaunayTriangulation/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/topographySphere/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/dashboards/tesseralSphericalHSliders/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/animations/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/FilledCurves/FilledLine/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/withTheme/minimal/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/withTheme/theme_dark_astronauts/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapxyz/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/surfaceConstraints/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/linesAndScattersLegOut/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/surfWireContour/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/contourQubit/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapLogIrregular/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/FlowFields/streamplots3/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/BoxPlot/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/lines1/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/BoxErrorBars/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/besselSecondKind/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/volumeTransparent/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/withTheme/Epicycloid/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/geoCoastlinesField/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/FilledCurves/Bands/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/LineLogx/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/geoCoastlinesStatesUS/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/gppBeer2010/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/xBoxErrorBars/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapIrregularCategories/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/BoxErrorBarsCmap/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/withTheme/ggplot2/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/FilledCurves/FilledLines/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/xyerrorbars/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/submarineCables3D/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/blueMarble/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/LineWithInsetHeatmap/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/RGBcube/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapCbarBottom/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/geoProjections/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/volume/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/animations/earthquakes/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/linesAndScatters/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/contour/ContourComplexF/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapIrregular/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/FlowFields/streamplot/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapCbarTop/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapScaleDetail/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/tesseralSphericalH/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/dashboards/matcap/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/animations/animLinePoint/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/withTheme/light/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/ssao_planeSphere/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/revolutionSurf2/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/topography/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/timeSeries/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/surface1Color/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/FilledCurves/ConfidenceRegion/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/wireSurfToris/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/MultipleMulticoloredLineCbarAround/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/strippedBar/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/ScatterLogxyCbar/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/contour/ContourOverHeatmap/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/ssao_simple/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapScaleCrosshair/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/surfaceComplexF/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/animations/animScatters/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapText/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapScaleSections/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/DensitiesDataSet/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/dashboards/plotVolColormaps/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/temPrecESDL/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/404/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/ScatterHistDensitySides/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/ViolinPlot/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/dashboards/earthquakeswgl/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/MultipleMulticoloredLineCbarOut/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapGrid/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/candlestick/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/geoFieldCountries/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/FlowFields/streamplotAndHeatmap/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/linesScatters/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/surface1/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/irisDataSet/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/contour/contourQubit/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/contour/ContourEgg/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/FlowFields/arrows/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/animations/lorenzAttractorAnim/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/line3D/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapScaleAdd/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/besselFunctions/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/latexSample/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/histogramsNorms/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/yerrorbars/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/penguinsDataSetWithChain/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/LineWithInset/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/LineLogxy/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/volumeScatters/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/KleinBottle/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/topoLinesFuji/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/ssao_gmscatter/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/landSea/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/temCubeESDL/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/moon/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmapCbarLeft/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/RRGraph3D/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/ScattersCmaps/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmap2SharedCbars/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/proj4_to_Sphere/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/revolutionSurf/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/lineScatter/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/LineLogy/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/Fig2Lines/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/MulticoloredLinesCbarOut/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/penguinsAoGsides3d/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/LinesAndMulticoloredLineCbarOut/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/StatsPlots/histograms/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/MulticoloredLinesLegOut/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/FlowFields/complexPolyaField/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/RRGraph/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/BubblePlot/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmap1SharedCbar/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/withTheme/theme_dark_Contour3d/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/ghorn/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/GeoPlots/geoCoastlines/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/animations/gravities/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/surfWireLines/wireTori/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/twinAxis/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/animations/flying/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/ScattersLines/penguinsAoGsides/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/heatmaps/heatmap1/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/search/index.html</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://lazarusa.github.io/BeautifulMakie/index/</loc>
+    <lastmod>2022-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+</urlset>

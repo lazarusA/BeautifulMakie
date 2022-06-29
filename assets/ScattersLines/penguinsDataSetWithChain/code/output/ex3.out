@@ -1,0 +1,5 @@
+      Status `~/work/BeautifulMakie/BeautifulMakie/Project.toml`
+  [13f3f980] CairoMakie v0.8.8
+  [a93c6f00] DataFrames v1.3.4
+  [38e38edf] GLM v1.8.0
+  [8b842266] PalmerPenguins v0.1.4

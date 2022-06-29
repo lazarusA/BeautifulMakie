@@ -1,0 +1,6 @@
+      Status `~/work/BeautifulMakie/BeautifulMakie/Project.toml`
+  [35d6a980] ColorSchemes v3.19.0
+  [5ae59095] Colors v0.12.8
+  [5789e2e9] FileIO v1.14.0
+  [e9467ef8] GLMakie v0.6.8
+  [9a7e659c] Proj4 v0.7.6

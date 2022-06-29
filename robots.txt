@@ -1,0 +1,4 @@
+Sitemap: https://lazarusa.github.io/BeautifulMakie/sitemap.xml
+
+User-agent: *
+Disallow:

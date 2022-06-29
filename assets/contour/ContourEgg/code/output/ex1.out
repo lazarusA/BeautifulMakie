@@ -1,0 +1,6 @@
+MethodError: Cannot `convert` an object of type GeometryBasics.Vec{2, Float32} to an object of type Tuple{Float32, Float32}
+Closest candidates are:
+  convert(::Type{T}, !Matched::T) where T<:Tuple at essentials.jl:315
+  convert(::Type{T}, !Matched::Tuple{Vararg{Any, N}}) where {N, T<:Tuple} at essentials.jl:316
+  convert(::Type{T}, !Matched::CartesianIndex) where T<:Tuple at multidimensional.jl:137
+  ...

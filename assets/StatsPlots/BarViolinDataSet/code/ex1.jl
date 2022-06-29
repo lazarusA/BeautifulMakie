@@ -1,0 +1,23 @@
+# This file was generated, do not modify it. # hide
+# by Lazaro Alonso
+using CairoMakie, RDatasets, Colors, ColorSchemes
+CairoMakie.activate!() #HIDE
+let
+    airquality = dataset("datasets", "airquality")
+    categories = ["Ozone", "Solar.R", "Wind", "Temp"]
+    colors = categorical_colors(:Set1, length(categories))
+
+    fig = Figure(resolution = (600, 800))
+    axs = [Axis(fig[i, 1], xticks = (1:length(categories), categories)) for i in 1:2]
+    for (indx, f) in enumerate(categories)
+        datam = filter(x -> x !== missing, airquality[:, f])
+        a = fill(indx, length(datam))
+        boxplot!(axs[1], a, datam; whiskerwidth = 1, width = 0.35,
+            color = (colors[indx], 0.45), whiskercolor = (colors[indx], 1),
+            mediancolor = :black) #show_outliers=false
+        violin!(axs[2], a, datam; width = 0.35, color = (colors[indx], 0.45),
+            strokecolor = colors[indx], show_median = true, mediancolor = :black)
+    end
+    # display(fig)
+    save(joinpath(@OUTPUT, "BarViolinDataSet.svg"), fig) # HIDE
+end;

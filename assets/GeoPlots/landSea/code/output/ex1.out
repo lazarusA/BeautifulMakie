@@ -1,0 +1,3 @@
+MethodError: no method matching calculate_real_ticklabel_align(::MakieCore.Automatic, ::Bool, ::Bool, ::Makie.Quaternionf)
+Closest candidates are:
+  calculate_real_ticklabel_align(::Any, ::Any, ::Bool, !Matched::Number) at /home/runner/.julia/packages/Makie/bwZTV/src/makielayout/lineaxis.jl:74

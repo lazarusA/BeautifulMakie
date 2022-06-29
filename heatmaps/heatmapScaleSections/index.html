@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+   <link rel="stylesheet" href="/BeautifulMakie/libs/highlight/github.min.css">
+ 
+    <script src="/BeautifulMakie/libs/clipboard.min.js"></script>
+  
+  <link rel="stylesheet" href="/BeautifulMakie/css/spectre.min.css">
+  <link rel="stylesheet" href="/BeautifulMakie/css/spectre-exp.min.css">
+  <link rel="stylesheet" href="/BeautifulMakie/css/spectre-icons.min.css">
+  <link rel="stylesheet" href="/BeautifulMakie/css/docs.min.css">
+  <link rel="stylesheet" href="/BeautifulMakie/css/jtd.css">
+  <link rel="stylesheet" href="/BeautifulMakie/css/spectre-overrides.css">
+
+</head>
+<body>
+  <div class="docs-container off-canvas off-canvas-sidebar-show">
+    <div class="docs-navbar">
+      <a class="off-canvas-toggle btn btn-link btn-action" href="#sidebar"><i class="icon icon-menu"></i></a>
+      <div class="btn-group">
+        <a class="btn ml-1" href="/BeautifulMakie/ScattersLines/lines1/">Lines & Scatters</a>
+        <a class="btn ml-1" href="/BeautifulMakie/FilledCurves/FilledLine/">Filled Curves</a>
+        <a class="btn ml-1" href="/BeautifulMakie/FlowFields/arrows/">Fields</a>
+        <a class="btn ml-1" href="/BeautifulMakie/StatsPlots/histograms/">Stats</a>
+        <a class="btn ml-1" href="/BeautifulMakie/heatmaps/heatmap1/">Heatmaps</a>
+        <a class="btn ml-1" href="/BeautifulMakie/contour/ContourEgg/">Contour</a>
+        <a class="btn ml-1" href="/BeautifulMakie/surfWireLines/surfWireContour/">3D</a>
+        <a class="btn ml-1" href="/BeautifulMakie/withTheme/Epicycloid/">Themes</a>
+        <a class="btn ml-1" href="/BeautifulMakie/animations/animScatters/">Animations</a>
+        <a class="btn ml-1" href="/BeautifulMakie/dashboards/tesseralSphericalHSliders/">Dashboards</a>
+        <a class="btn ml-1" href="/BeautifulMakie/GeoPlots/blueMarble/">GeoPlots</a>
+
+        <!-- <input class="docs-search form-input" type="text" placeholder="Search Docs"> -->
+        <a class="btn btn-success ml-1" href="https://github.com/sponsors/lazarusA?o=esb" target="_blank">Sponsor</a>
+        <a class="btn btn-primary ml-1" href="https://github.com/lazarusA/BeautifulMakie" target="_blank">GitHub</a>
+      </div>
+  </div>
+
+  <div class="docs-sidebar off-canvas-sidebar" id="sidebar">
+
+  <div class="docs-brand">
+      <h5><a href="/BeautifulMakie/"> <small class="label label-rounded label-primary text-bold">Beautiful</small> Makie</a></h5>
+      <a title="star this site !" href="https://github.com/lazarusA/BeautifulMakie">
+        <img align="left" src="https://img.shields.io/github/stars/lazarusA/BeautifulMakie?style&#61;social"
+          alt="Stars" /></a>
+  </div>
+  <div class="docs-nav">
+    <div class="accordion-container">
+      <div class="accordion">
+        <input id="accordion-lines" type="checkbox" name="docs-accordion-lines" hidden="" checked="checked"/>
+        <br><br>
+        <label class="accordion-header c-hand" for="accordion-lines">Lines and Scatters</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/lines1/">Single line</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/Fig2Lines/">Two lines</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/twinAxis/">Twin Axis</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/lineScatter/">scatterlines</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/linesScatters/">scatterlines & markers</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/linesAndScatters/">Scatterlines & lines</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/linesAndScattersLegOut/">scatterlines & legend out</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/MulticoloredLinesLegOut/">Colored lines & legend out</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/MulticoloredLinesCbarOut/">Colored lines & colorbar out</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/LinesAndMulticoloredLineCbarOut/">Line with Colormap</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/MultipleMulticoloredLineCbarOut/">Lines with different Colormaps</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/MultipleMulticoloredLineCbarAround/">Lines & colormaps (colorbars
+                around)</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/ScattersCmaps/">Scatters and colormaps</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/BubblePlot/">Bubble Plot</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/latexSample/">LaTeX example</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/besselFunctions/">Bessel Functions, LaTeX legends</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/besselSecondKind/">Bessel Second Kind, LaTeX legends line styles</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/LineWithInset/">Line with inset plot</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/LineWithInsetHeatmap/">Line with inset heatmap plot</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/timeSeries/">timeSeries</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/ScatterHistDensitySides/">ScatterHistDensitySides</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/irisDataSet/">irisDataSet</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/RRGraph/">RRGraph</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/penguinsDataSetWithChain/">penguinsDataSetWithChain</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/penguinsAoGsides/">penguinsAoGsides</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/penguinsAoGsides3d/">penguinsAoGsides3d</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/LineLogx/">LineLogx</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/LineLogy/">LineLogy</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/LineLogxy/">LineLogxy</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/ScattersLines/ScatterLogxyCbar/">ScatterLogxyCbar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="accordion">
+        <input id="accordion-filled-curves" type="checkbox" name="docs-accordion-filled-curves" hidden="" checked="checked"/>
+        <label class="accordion-header c-hand" for="accordion-filled-curves">Filled Curves</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/FilledCurves/FilledLine/">Filled Line</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/FilledCurves/FilledLines/">Bell-shaped curves</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/FilledCurves/Bands/">Bands-ribbon</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/FilledCurves/ConfidenceRegion/">Confidence region</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/FilledCurves/delaunayTriangulation/">Polygons: Delaunay
+                Triangulation</a>
+            </li>
+      
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <input id="accordion-flow-fields" type="checkbox" name="docs-accordion-flow-fields" hidden="" checked="checked" />
+        <label class="accordion-header c-hand" for="accordion-flow-fields">Flow fields</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/FlowFields/arrows/">Arrows</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/FlowFields/streamplot/">Streamplot</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/FlowFields/streamplotAndHeatmap/">Streamplot & heatmap</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/FlowFields/streamplots3/">Streamplots layout</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/FlowFields/complexPolyaField/">Complex Polya Field</a>
+            </li>
+      
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <input id="accordion-stats" type="checkbox" name="docs-accordion-stats" hidden="" checked="checked" />
+        <label class="accordion-header c-hand" for="accordion-stats">Statistical plots</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/histograms/">Histograms, bins & counts</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/histogramsNorms/">Histograms & normalization</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/histDensity/">Histogram with pdf => density</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/BoxPlot/">Box Plots, vertical/horizontal</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/ViolinPlot/">Violin plot</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/BoxErrorBars/">Barplot and y error bars</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/xBoxErrorBars/">x-error & y-error barplots</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/xyerrorbars/">Simple x-y error bars</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/BoxErrorBarsCmap/">Barplot and y error bars, colormap</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/strippedBar/">Stripped barplot patterns</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/yerrorbars/">Simple y error bars + colormap</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/BarViolinDataSet/">Box and Violins using RDatasets</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/DensitiesDataSet/">Density plots using RDatasets</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/StatsPlots/candlestick/">Candlestick</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <input id="accordion-heatmaps" type="checkbox" name="docs-accordion-heatmaps" hidden="" checked="checked" />
+        <label class="accordion-header c-hand" for="accordion-heatmaps">Heatmaps</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmap1/">Heatmap: right Colorbar</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapCbarLeft/">Heatmap: left Colorbar</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapCbarTop/">Heatmap: top Colorbar</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapCbarBottom/">Heatmap: bottom Colorbar</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmap1SharedCbar/">Heatmap: 1 shared Colorbar</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmap2SharedCbars/">Heatmap: 2 shared Colorbars</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapGrid/">Heatmap: layout grid</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapxyz/">Heatmap: x,y,z</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapText/">Heatmap with text annotations</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapIrregular/">Heatmap with an irregular grid</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapIrregularCategories/">Heatmap with an irregular
+                grid, categorical ticks</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapScaleAdd/">Heatmap Scale Added</a>
+            </li>
+            <li class="menu-item active">
+              <a href="/BeautifulMakie/heatmaps/heatmapScaleSections/">Heatmap Scale Sections</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapScaleCrosshair/">Heatmap Scale crosshair</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/heatmaps/heatmapScaleDetail/">Heatmap Scale Detail</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <input id="accordion-contour" type="checkbox" name="docs-accordion-contour" hidden="" checked="checked" />
+        <label class="accordion-header c-hand" for="accordion-contour">Contour plots</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/contour/ContourEgg/">Contour Egg</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/contour/ContourOverHeatmap/">Contour lines over heatmap</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/contour/contourQubit/">Contour: Qubit</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/contour/ContourComplexF/">Contour: Complex Function</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="accordion">
+        <input id="accordion-3d-plots" type="checkbox" name="docs-accordion-3d-plots" hidden="" checked="checked" />
+        <label class="accordion-header c-hand" for="accordion-3d-plots">3d plots</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/surfWireContour/">Surface, Wireframe & Contour</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/surface1/">Surface: branching</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/surfaceConstraints/">Surface: constraints</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/surface1Color/">Surface: one color</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/surfaceComplexF/">Surface: complex function</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/revolutionSurf/">Surface of revolution1</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/revolutionSurf2/">Surface of revolution2</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/ghorn/">Gabriel's Horn</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/KleinBottle/">Surface: Klein Bottle</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/tesseralSphericalH/">Surface: Tesseral Spherical
+                Harmonics</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/RGBcube/">RGBcube</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/RRGraph3D/">Weighted random-geometric Graph 3D</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/volume/">volume</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/volumeScatters/">volume with scatters, x,y,z,
+                f(x,y,z)</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/volumeTransparent/">volume transparent, contour,
+                scatters, x,y,z, f(x,y,z)</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/line3D/"> line </a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/wireTori/"> Wireframe: Torus </a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/wireSurfToris/"> Wireframe & surface: Torus </a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/ssao_simple/"> Screen-Space Ambient Occlusion, SSAO </a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/ssao_gmscatter/"> SSAO, meshscatter grid</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/surfWireLines/ssao_planeSphere/"> SSAO, Earth and planes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="accordion">
+        <input id="accordion-themes" type="checkbox" name="docs-accordion-themes" hidden="" checked="checked" />
+        <label class="accordion-header c-hand" for="accordion-themes">Themes</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/withTheme/Epicycloid/">Black: Epicycloid</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/withTheme/theme_dark_Contour3d/">Dark: surface, contour3d &
+                streamplot</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/withTheme/theme_dark_astronauts/">Black: Astronauts</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/withTheme/minimal/">Minimal: series</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/withTheme/ggplot2/">ggplot2: stem</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/withTheme/light/">light: Polygons</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <input id="accordion-animations" type="checkbox" name="docs-accordion-animations" hidden="" checked="checked" />
+        <label class="accordion-header c-hand" for="accordion-animations">Animations</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/animations/animScatters/">Animation scatters size</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/animations/animLinePoint/">Animation line and point</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/animations/lorenzAttractorAnim/">Lorenz Attractor Animation</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/animations/gravities/">Gravity Animation</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/animations/flying/">Flying, the speed of light</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/animations/earthquakes/">Earthquakes on Earth: depth not at
+                scale</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <input id="accordion-dashboards" type="checkbox" name="docs-accordion-dashboards" hidden="" checked="checked" />
+        <label class="accordion-header c-hand" for="accordion-dashboards">Dashboards</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/dashboards/tesseralSphericalHSliders/">Tesseral Spherical Harmonics:
+                Menu and Sliders</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/dashboards/plotVolColormaps/">Demo: ColorSchemes palettes</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/dashboards/earthquakeswgl/">Earthquakes on Earth: Interactive
+                version</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/dashboards/matcap/">Material Capture</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <input id="accordion-geoplots" type="checkbox" name="docs-accordion-geoplots" hidden="" checked="checked" />
+        <label class="accordion-header c-hand" for="accordion-geoplots">GeoPlots</label>
+        <div class="accordion-body">
+          <ul class="menu menu-nav">
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/blueMarble/"> Earth: Blue Marble</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/moon/">The Moon</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/proj4_to_Sphere/">proj4_to_Sphere</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/submarineCables/">submarineCables</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/submarineCables3D/">submarineCables3d</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/geoFieldCountries/">geoFieldCountries</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/geoCoastlinesStatesUS/">geoCoastlinesStatesUS</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/geoCoastlinesField/">geoCoastlinesField</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/geoCoastlines/">geoCoastlines</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/landSea/">landSea</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/temPrecESDL/">temPrecESDL</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/temCubeESDL/">temCubeESDL</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/gppBeer2010/">gppBeer2010</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/topography/">topography</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/topographySphere/">topographySphere</a>
+            </li>
+            <li class="menu-item ">
+              <a href="/BeautifulMakie/GeoPlots/geoProjections/">geoProjections</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<a class="off-canvas-overlay" href="#close"></a>
+
+
+<div class="off-canvas-content">
+<div id="content" class="docs-content">
+<div class="container">
+<!-- Content appended here -->
+<div class="franklin-content"><h2 id="heatmap_scale_sections"><a href="#heatmap_scale_sections" class="header-anchor">Heatmap Scale Sections</a></h2>
+<p><img src="/BeautifulMakie/assets/scripts/output/heatmapScaleSections.png" alt=""> <pre><code class="language-julia"># by @walra356
+using CairoMakie
+let
+  supertitle &#61; &quot;heatmap of camera chip exposure with x and y sections&quot;
+  # define transformation from pixel coordinates to physical coordinates
+  edges&#40;p, Δx, x0&#41; &#61; collect&#40;p .* Δx&#41; .- &#40;x0 &#43; 0.5Δx&#41;
+  # parameters camera chip &#40;pixel coordinates&#41;
+  dimX &#61; 40
+  dimY &#61; 30                       # pixel dimensions
+  &#40;px, py&#41; &#61; &#40;1:dimX, 1:dimY&#41;                  # pixel positions
+  &#40;ix, iy&#41; &#61; &#40;10, 3&#41;                        # selected pixel
+  # physical coordinates
+  &#40;Δx, Δy&#41; &#61; &#40;4.0, 5, 0&#41;                       # pixel lattice periods &#40;μm&#41;
+  &#40;Ox, Oy&#41; &#61; &#40;edges&#40;ix, Δx, 0&#41;, edges&#40;iy, Δy, 0&#41;&#41; # manual offset &#40;μm&#41;
+  &#40;x, y&#41; &#61; &#40;edges&#40;px, Δx, Ox&#41;, edges&#40;py, Δy, Oy&#41;&#41; # pixel positions &#40;μm&#41;
+  # create exposure matrix σ &#40;model alternative for measurement file&#41;
+  valmax &#61; 500.0                              # maximum value exposure matrix
+  exposure&#40;i, j, ix, iy, wx, wy&#41; &#61; 0.9valmax *
+                                   &#40;exp&#40;-&#40;&#40;&#40;i - ix&#41; / wx&#41;^2 &#43; &#40;&#40;Δy / Δx&#41; * &#40;j - iy&#41; / wy&#41;^2&#41;&#41; &#43; 0.1&#41;
+  σ &#61; round.&#40;Int, &#91;exposure&#40;i, j, ix, iy, 6, 6&#41; for i &#61; 1:dimX, j &#61; 1:dimY&#93;&#41;
+  σ1 &#61; σ&#91;px, py&#93;  # raw matrix
+  sh &#61; σ&#91;:, iy&#93;   # horizontal section &#40;pixel row iy from bottom&#41;
+  sv &#61; σ&#91;ix, :&#93;   # vertical section &#40;pixel column ix from left&#41;
+  footnote &#61; &quot;Origin of coordinate system was shifted by &#40;&#36;Ox μm, &#36;Oy μm&#41;
+              w.r.t. left-bottom edge of camera chip
+              \nPixel lattice periods: &#40;Δx &#61; &#36;Δx μm, Δy &#61; &#36;Δy μm&#41;;
+              pixel position of light spot: &#40;ix, y0&#41; &#61; &#40;&#36;&#40;ix&#41;, &#36;&#40;iy&#41;&#41;&quot;
+
+  # start actual plot
+  theme &#61; Theme&#40;fontsize &#61; 12, colormap &#61; :gist_earth, resolution &#61; &#40;750, 850&#41;&#41;
+  set_theme&#33;&#40;theme&#41;
+  fig &#61; Figure&#40;&#41;
+  # collect attributes
+  fsize &#61; fig.scene.theme.fontsize.val
+  fresx &#61; fig.scene.theme.resolution.val&#91;1&#93;
+  fresy &#61; fig.scene.theme.resolution.val&#91;2&#93;
+  attr &#61; &#40;xlabelsize &#61; 6fsize / 5, ylabelsize &#61; 6fsize / 5, titlesize &#61; 7fsize / 5,
+    xautolimitmargin &#61; &#40;0, 0&#41;, yautolimitmargin &#61; &#40;0, 0&#41;,&#41;
+  attr1 &#61; &#40;attr..., title &#61; &quot;physical scale&quot;,
+    xticks &#61; &#91;x&#91;1&#93; - Δx / 2, x&#91;ix&#93;, 50, x&#91;end&#93; &#43; Δx / 2&#93;,
+    yticks &#61; &#91;y&#91;1&#93; - Δy / 2, y&#91;iy&#93;, 50, y&#91;end&#93; &#43; Δy / 2&#93;,
+    xlabel &#61; &quot;x &#40;μm&#41;&quot;, ylabel &#61; &quot;y &#40;μm&#41;&quot;,
+    aspect &#61; &#40;Δx * size&#40;σ1, 1&#41;&#41; / &#40;Δy * size&#40;σ1, 2&#41;&#41;,&#41;
+  attrc &#61; &#40;label &#61; &quot;exposure &#40;counts&#41;&quot;, ticksize &#61; 6fsize / 5, tickalign &#61; 1,
+    width &#61; 15, height &#61; Relative&#40;0.88&#41;,&#41; # tweaked
+  attrh &#61; &#40;attr..., title &#61; &quot;horizontal section&quot;,
+    xlabel &#61; &quot;x &#40;μm&#41;&quot;, ylabel &#61; &quot;exposure &#40;counts&#41;&quot;,
+    xticks &#61; &#91;x&#91;1&#93; - Δx / 2, x&#91;ix&#93;, 50, x&#91;end&#93; &#43; Δx / 2&#93;,
+    yticks &#61; &#91;0, 250, valmax&#93;,
+    limits &#61; &#40;&#40;x&#91;1&#93; - Δx / 2, x&#91;end&#93; &#43; Δx / 2&#41;, &#40;0, valmax&#41;&#41;,
+    height &#61; fresy / 5, aspect &#61; 2.05,&#41; # tweaked
+  attrv &#61; &#40;attr..., xlabel &#61; &quot;exposure &#40;counts&#41;&quot;,
+    xticks &#61; &#91;0, 250, valmax&#93;,
+    yticks &#61; &#91;y&#91;1&#93; - Δy / 2, y&#91;iy&#93;, 50, y&#91;end&#93; &#43; Δy / 2&#93;,
+    xreversed &#61; true, yaxisposition &#61; :right,
+    limits &#61; &#40;&#40;0, valmax&#41;, &#40;y&#91;1&#93; - Δy / 2, y&#91;end&#93; &#43; Δy / 2&#41;&#41;,
+    width &#61; fresy / 5, aspect &#61; 0.58,&#41; # tweaked
+  # create axes and add contents
+  ax1 &#61; Axis&#40;fig; attr1...&#41;
+  axh &#61; Axis&#40;fig; attrh...&#41;
+  axv &#61; Axis&#40;fig; attrv...&#41;
+  hm1 &#61; heatmap&#33;&#40;ax1, x, y, σ1&#41;
+  axc &#61; Colorbar&#40;fig, hm1; attrc...&#41;
+  lfn &#61; Label&#40;fig, text &#61; footnote, textsize &#61; 6fsize / 5&#41;
+  lst &#61; Label&#40;fig, text &#61; supertitle, textsize &#61; 2fsize&#41;
+  lvs &#61; Label&#40;fig, text &#61; &quot;vertical section&quot;, padding &#61; &#40;0, 5, 0, 0&#41;,
+    rotation &#61; pi / 2, textsize &#61; 7fsize / 5&#41;
+  sch &#61; scatter&#33;&#40;axh, x, sh, direction &#61; :x, color &#61; :red, markersize &#61; 5,&#41;
+  scv &#61; scatter&#33;&#40;axv, sv, y, color &#61; :red, markersize &#61; 5&#41;
+  lnh &#61; lines&#33;&#40;ax1, x, fill&#40;0, length&#40;x&#41;&#41;, color &#61; :white, linewidth &#61; 1&#41;
+  lnv &#61; lines&#33;&#40;ax1, fill&#40;0, length&#40;y&#41;&#41;, y, color &#61; :white, linewidth &#61; 1&#41;
+  # create layout and show figure
+  fig&#91;1, 2&#93; &#61; axh
+  fig&#91;2, 1&#93; &#61; axv
+  fig&#91;2, 1, Left&#40;&#41;&#93; &#61; lvs
+  fig&#91;2, 2&#93; &#61; ax1
+  fig&#91;2, 3&#93; &#61; axc
+  fig&#91;3, :&#93; &#61; lfn
+  fig&#91;0, :&#93; &#61; lst
+  display&#40;fig&#41;
+end</code></pre> 
+<span style="color:#e53e00;"> <strong> Dependencies </strong> </span>
+ <div class="code-output"><pre><code class="plaintext code-output">      Status `~/Desktop/BeautifulMakie/_assets/Project.toml`
+  [13f3f980] CairoMakie v0.6.3
+</code></pre></div></p>
+<div class="docs-footer container grid-lg" id="copyright">
+    <p><a href="https://github.com/lazarusA/BeautifulMakie" target="_blank">GitHub</a> · <a
+            href="https://twitter.com/LazarusAlon" target="_blank">Twitter</a> · <a
+            href="https://github.com/sponsors/lazarusA?o=esb" target="_blank">Sponsor</a> </p>
+    <p>Designed and built with · <a href="https://picturepan2.github.io/spectre/" target="_blank"> SPECTRE Version </a> <span class="version"></span> ·
+        <a href="https://github.com/tlienart/Franklin.jl/" target="_blank"> Franklin.jl </a> and <span class="text-error">&hearts;</span> by <a href="https://twitter.com/LazarusAlon"
+            target="_blank"> Lazaro Alonso </a>. Licensed under the <a
+            href="" target="_blank">MIT License</a>.</p>
+</div>
+
+<script src="/BeautifulMakie/libs/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
+
+<!-- http://tutsplus.github.io/clipboard/ -->
+
+<script>
+(function(){
+
+	// Get the elements.
+	// - the 'pre' element.
+	// - the 'div' with the 'paste-content' id.
+
+	var pre = document.getElementsByTagName('pre');
+
+	// Add a copy button in the 'pre' element.
+	// which only has the className of 'language-'.
+
+	for (var i = 0; i < pre.length; i++) {
+		var isLanguage = pre[i].children[0].className.indexOf('language-');
+
+		if ( isLanguage === 0 ) {
+			var button           = document.createElement('button');
+					button.className = 'copy-button';
+					button.textContent = 'Copy';
+
+					pre[i].appendChild(button);
+		}
+	};
+
+	// Run Clipboard
+
+	var copyCode = new Clipboard('.copy-button', {
+		target: function(trigger) {
+			return trigger.previousElementSibling;
+    }
+	});
+
+	// On success:
+	// - Change the "Copy" text to "Copied".
+	// - Swap it to "Copy" in 2s.
+	// - Lead user to the "contenteditable" area with Velocity scroll.
+
+	copyCode.on('success', function(event) {
+		event.clearSelection();
+		event.trigger.textContent = 'Copied';
+		window.setTimeout(function() {
+			event.trigger.textContent = 'Copy';
+		}, 2000);
+
+	});
+
+	// On error (Safari):
+	// - Change the  "Press Ctrl+C to copy"
+	// - Swap it to "Copy" in 2s.
+
+	copyCode.on('error', function(event) {
+		event.trigger.textContent = 'Press "Ctrl + C" to copy';
+		window.setTimeout(function() {
+			event.trigger.textContent = 'Copy';
+		}, 5000);
+	});
+
+})();
+</script>
+
+
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+        <script src="/BeautifulMakie/libs/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
+
+    
+    </div>
+    </div>
+    </div>
+    </div>
+  </body>
+</html>

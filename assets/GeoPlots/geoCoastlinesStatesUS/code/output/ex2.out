@@ -1,0 +1,6 @@
+      Status `~/work/BeautifulMakie/BeautifulMakie/Project.toml`
+  [13f3f980] CairoMakie v0.8.8
+  [cf35fbd7] GeoInterface v0.5.7
+  [61d90e0f] GeoJSON v0.5.1
+  [db073c08] GeoMakie v0.4.1
+  [9a7e659c] Proj4 v0.7.6

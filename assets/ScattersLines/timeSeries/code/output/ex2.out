@@ -1,0 +1,4 @@
+      Status `~/work/BeautifulMakie/BeautifulMakie/Project.toml`
+  [13f3f980] CairoMakie v0.8.8
+  [9e3dc215] TimeSeries v0.23.0
+  [ade2ca70] Dates
